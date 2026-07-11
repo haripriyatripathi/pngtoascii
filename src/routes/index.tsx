@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { AsciifyApp } from "@/components/asciify/AsciifyApp";
+import { PngtoAscii } from "@/components/asciify/PngtoAscii";
 
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
 function Index() {
-  return <AsciifyApp />;
+  return <PngtoAscii />;
 }
