@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "asciify — PNG to ASCII converter" },
+      { title: "pngtoascii" },
       {
         name: "description",
         content:
           "Client-side PNG to ASCII converter with dithering, edge detection, color, and instant exports. Runs entirely in your browser.",
       },
-      { name: "author", content: "asciify" },
-      { property: "og:title", content: "asciify — PNG to ASCII converter" },
+      { name: "author", content: "pngtoascii" },
+      { property: "og:title", content: "pngtoascii" },
       {
         property: "og:description",
         content:
